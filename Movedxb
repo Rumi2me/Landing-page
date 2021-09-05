@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+                     
+    </head>
+    <body>
+
+      <div class="container">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">MoveDXB.com</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
+          <form>
+             <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+
+                
+              <button class="btn btn-secondary" type="button">Getstarted</button>
+            </div>
+          </form>
+
+        </header>
+      </div>
+
+
+
+      <!--div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-dark text-white">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Simple header</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+            </header>
+            </div-->
+
+
+
+          <!-- <header class="p-3 bg-dark text-white">
+          <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+          </form>
+
+          <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+           </div>
+           </div>
+         </header>-->
+
+
+
+           <div class="container col-xxl-8 px-4 py-5">
+           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+           <div class="col-10 col-sm-8 col-lg-6">
+          
+           <img src="img4.jpg"  alt="Bootstrap Themes" class="rounded-circle border border-white" width="650" height= "400" loading="lazy">
+           </div>
+           <div class="col-lg-6">
+           <h1 class="display-5 fw-bold lh-1 mb-3">Making transportation easier</h1>
+           <p class="lead">We help make transportation more fast and cheaper by optimising routes inturn reducing your carbon foot print.</p>
+           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2">Read more</button>
+           </div>
+          </div>
+          </div>
+          </div>
+       
+
+
+             <!--custom cards-->>
+
+            <div class="container px-4 py-5" id="custom-cards">
+              <h2 class="pb-2 border-bottom">What We Offer:</h2>
+          
+              <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                  <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img1.jpg');">
+
+
+                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Employee Pick & Drop
+                      <h2 class="pt-2 mt-2 mb-2 display-7 lh-1">Customized company routes  that reduce commute hours and minimize expenses.</h2></h2>
+
+                      <a class="elementor-button elementor-size-md jet-services__button jet-services__button--icon-after" href="#"><span class="jet-services__button-text">Read More</span><span class="jet-services__button-icon jet-elements-icon"><i aria-hidden="true" class="fas fa-chevron-right"></i></span></a>
+                                                
+                    
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img2.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Individual Commutes
+                      <h2 class="pt-2 mt-2 mb-2 display-7 lh-1">Take control of your daily commute to work or university.</h2></h2>
+                      <a class="elementor-button elementor-size-md jet-services__button jet-services__button--icon-after" href="#"><span class="jet-services__button-text">Read More</span><span class="jet-services__button-icon jet-elements-icon"><i aria-hidden="true" class="fas fa-chevron-right"></i></span></a>
+                     </div>
+                </div>
+              </div>
+        
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img3.jpg');">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Event Transportation
+                      <h2 class="pt-2 mt-2 mb-2 display-7 lh-1">Transport a large crowd with professional drivers.</h2></h2>
+                      <a class="elementor-button elementor-size-md jet-services__button jet-services__button--icon-after" href="#"><span class="jet-services__button-text">Read More</span><span class="jet-services__button-icon jet-elements-icon"><i aria-hidden="true" class="fas fa-chevron-right"></i></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+          
+              <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+          
+              <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+              </ul>
+            </footer>
+          </div>
+
+        </body>
+  </html>
+
+
 
